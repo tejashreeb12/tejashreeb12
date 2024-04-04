@@ -5,11 +5,10 @@ from jinja2 import Environment, FileSystemLoader
 import pdfkit
 
 def send_email(to, subject, body, pdf_file):
-    sender = 'my_email'
-    password = 'my_password'
+    sender = '  '
+    password = '  '
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
-    
     message = f"""From: {sender}
 To: {to}
 Subject: {subject}
